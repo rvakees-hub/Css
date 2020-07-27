@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="uki.css">
+        <script src="jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <nav align="center">
+            <a href="index.html">Home</a>|
+            <a href="Form Ex.html">Form</a>|
+            <a href="Timetable.html">Timetable</a>
+        </nav>
+        <img src="logo.jpeg" alt="Ukilife" class="center">
+        
+        <script>
+          $(document).ready(function(){
+            $("#t1").click(function(){
+            $("#dd1").slideDown("show");
+            });
+            $(".para").mouseenter(function(){
+              alert("The Page Says You entered to Uki!");
+            })
+            $("#tta1").click(function(){
+              $("#tte2").hide();
+            })
+            $("#tta2").click(function(){
+              $("#tte2").show();
+            })
+            $(".heading2").mouseenter(function(){
+              $(".heading2").css("background-color","#99ddff");
+            })
+            $("#tta3").click(function(){
+              $(".para2").hide();
+            })
+          });
+          </script>
+          <div id="t1">Hey Uki</div>
+          <div id="dd1">Hey Uki..!</div>
+
+        <div class="clearfix" class="mainbox">
+            <div class="box1" style="background-color: deepskyblue;">
+            <h2 id="aa"class="heading">Welcome to uki-stepping stone to teach life</h2>
+            <p class="para">Uki is a coding school by Yarl IT Hub, which offers six months-long intensive, in-class training program that trains students to acquire skills needed to join tech companies as interns/ junior developers or become entrepreneurs.</p>
+        </div>
+            <div class="box2" style="background-color: dimgray;">
+                <h2 class="heading2">Courses</h2>
+                <p class="para2">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <ol id="tte2">
+                    <li>Programming</li>
+                    <li>Basic Business Skills</li>
+                    <li>Spoken English and Communication Skills</li>
+                    <li>Personal Coaching</li>
+                    </ol>
+                    <button id="tta1">Hide</button>
+                    <button id="tta2">Show</button>
+                   </div>
+                   <div class="box3" class="left" style="background-color: dimgray;">
+                    <h2 class="heading2" margin="center">Coding Accelerator Program</h2>
+                    <p class="para2">It is a full scholarship based Accelerator program for Coding in Jaffna, Sri Lanka targeting students who have completed Advanced Level examinations and don’t have access to university education or any other form of vocational education. It is aimed to provide the necessary training to enter Computer Software industry or to start an IT startup.
+                        This is an initiative by Yarl IT Hub, which has been functioning for the last 5 years as a not for profit social enterprise focusing on technology entrepreneurship in Northern Sri Lanka
+                        <button id="tta3">Details</button>
+                      </div>  
+                      </div>
+                  <div class="footer" align="left" style="background-color: dodgerblue;">
+                <p>2020 All Rights Reserved @ A joint inititative by Yarl IT Hub and Serve Foundation</p>
+              </div>
+            </body>
+</html>

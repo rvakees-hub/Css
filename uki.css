@@ -1,0 +1,104 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mainbox {
+  box-sizing: border-box;
+
+}
+
+.box1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding: 10px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  height: 100px
+  
+}
+#t1{
+  background-color:lightblue;
+  text-align: center;
+  padding:20px;
+  width:100%;
+}
+.box2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin: 20px;
+  height: 250px;
+  border-radius: 10px;
+}
+.box3 {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+  margin: 20px;
+  height: 250px;
+  border-radius: 10px;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.heading{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.heading2{
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.para{
+  text-align: center;
+}
+.para2{
+  text-align: left;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #99ddff;
+   color: black;
+   text-align: center;
+   padding: 10px;
+
+}
+
+.fonav{
+  background-color: #ccc;
+  color: #000;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #000;
+  float: right;
+}
+#dd1, #t1 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+#dd1 {
+  padding: 50px;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
